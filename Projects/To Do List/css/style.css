@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: palegreen;
+}
+
+#header{
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: rebeccapurple;
+}
+#form1{
+    width: 100%;
+    padding-left: 2px;
+    padding: 10px;
+    
+}
+
+#inputtext{
+    border: none;
+    width: 60%;
+    padding: 0;
+    height:  30px;
+    font-size: 16px;
+}
+
+#add{
+    border: none;
+    margin: 0;
+    width: 15%;
+    padding: 0;
+    height: 30px;
+    background: #d9d9d9 transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
+#add:hover{
+    background-color: #bbb;
+}
+#clear{
+    border: none;
+    width: 15%;
+    padding: 0;
+    height: 30px;
+    background: #d9d9d9 transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
+#clear:hover{
+    background-color: #bbb;
+}
+.listitems{
+    padding: 0;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    color: black;
+    padding: 5px;
+    background-color: orange;
+    width: 60%;
+    margin-left: 0px;
+    color: black;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul li:hover {
+    background: rgb(255, 153, 0);
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
+.close{
+    text-align: center;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding: 2px;
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
